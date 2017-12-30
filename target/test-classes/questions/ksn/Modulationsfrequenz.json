@@ -1,0 +1,46 @@
+{
+	"difficulty": 1,
+	"name": "Modulationfrequenz",
+	"subject": "KSN",
+	"task": [
+		{
+			"text": "Gegeben ist die Modulationsfrequenz ${0}Hz. Die untere Seitenschwingung liegt bei ${1}Hz. Welche Frequenz haben nun die obere Seitenschwingung"
+		},
+		{
+			"text": "und die untere Seitenschwingung?"
+		}
+	],
+	"hints": [
+		"ft und fm sind gegeben! "
+	],
+	"solution": [
+		{
+			"type": "NUMBER",
+			"text": "${2}"
+		},
+		{
+			"type": "NUMBER",
+			"text": "${3}"
+		}
+	],
+	"keys": [
+		{
+			"type": "int",
+			"minimum": 100,
+			"maximum": 1000
+		},
+		{
+			"type": "int",
+			"minimum": 10000,
+			"maximum": 1000500
+		},
+		{
+			"type": "expression",
+			"expr": "${0} + ${1}"
+		},
+		{
+			"type": "expression",
+			"expr": "${1} - ${0}"
+		}
+	]
+}

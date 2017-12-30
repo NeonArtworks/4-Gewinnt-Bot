@@ -1,0 +1,35 @@
+{
+	"difficulty": 2,
+	"name": "Addition",
+	"subject": "AM",
+	"task": [
+		{
+			"text": "Addiere die Zahlen ${0} und ${1}"
+		}
+	],
+	"hints": [
+		"Bruh"
+	],
+	"solution": [
+		{
+			"type": "NUMBER",
+			"text": "${2}"
+		}
+	],
+	"keys": [
+		{
+			"type": "double",
+			"minimum": 1.0,
+			"maximum": 5.0
+		},
+		{
+			"type": "int",
+			"minimum": -12,
+			"maximum": 12
+		},
+		{
+			"type": "expression",
+			"expr": "${0} + ${1}"
+		}
+	]
+}

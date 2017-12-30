@@ -1,0 +1,21 @@
+{
+	"difficulty": 1,
+	"name": "Maximale Leistung",
+	"subject": "KSN",
+	"task": [
+		{
+			"text": "Wie lautet die maximale Leistung Pam"
+		}
+	],
+	"hints": [
+		"Pt -> Trägerleistung, m"
+	],
+	"solution": [
+		{
+			"type": "string",
+			"text": "(1+m)^2*Pt"
+		}
+	],
+	"keys": [
+	]
+}
