@@ -51,12 +51,11 @@ public class BotDefs {
 	public static boolean PrintStartUpMessage = false;
 	public static String SPREADSHEET_RANGE_SPLITTER = ":";
 	public static String SPREADSHEET_START = "A";
-	public static String SPREADSHEET_END = SPREADSHEET_RANGE_SPLITTER+"H";
-	
+	public static String SPREADSHEET_END = SPREADSHEET_RANGE_SPLITTER + "H";
+
 	public static int CHALLENGE_POINTS_FIRST = 10;
 	public static int CHALLENGE_POINTS_SECOND = 7;
 	public static int CHALLENGE_POINTS_THIRD = 5;
-	
 
 	/**
 	 * h1>public void FILE_LOCATION()</h1>
@@ -69,6 +68,7 @@ public class BotDefs {
 	 * @return the path as String.
 	 */
 	public static String FILE_LOCATION() {
+		
 		String path = null;
 		try {
 			path = BotDefs.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath();
@@ -80,6 +80,6 @@ public class BotDefs {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return path;
+		return "./";
 	}
 }

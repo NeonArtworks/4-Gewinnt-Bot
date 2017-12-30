@@ -73,7 +73,7 @@ public class SheetQuestion implements IQuestionData {
 	public void setSolutions(List<SheetSolution> solutions) {
 		this.solutions = solutions;
 	}
-	
+
 	public List<SheetKey> getKeys() {
 		return keys;
 	}

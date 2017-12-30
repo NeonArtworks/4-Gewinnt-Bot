@@ -177,6 +177,7 @@ public class SheetHandler {
 					List<SheetKey> keys = getKeys(getSplittedResource((String) row.get(7)));
 					q = new SheetQuestion(Integer.parseInt((String) row.get(1)), (String) row.get(2),
 							(String) row.get(3), tasks, hints, solutions, keys);
+					
 					questions.add(q);
 
 				}
