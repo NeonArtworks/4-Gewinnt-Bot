@@ -32,6 +32,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/NEON/Desktop/Programmierung/[ASSETS]/APIs/TestParser1.1.6-r1.1.jar"/>
+	<classpathentry kind="lib" path="libs/TestParser1.1.6-r1.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

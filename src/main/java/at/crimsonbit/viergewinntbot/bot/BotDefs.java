@@ -46,9 +46,10 @@ public class BotDefs {
 	public static String RESOURCE_FOLDER = FILE_LOCATION() + "/resources/";
 	public static String PLUGINS_FOLDER = FILE_LOCATION() + "/plugins/";
 
+	public static boolean PrintStartUpMessage = false;
+	
 	public static String SPREADSHEET_ID = "1622RDJ0OL1rpwNrCFk9XHaBrPG9SjZNuQj1lOnwqrtw";
 	public static String SPREADSHEET_URL = "https://docs.google.com/forms/d/e/1FAIpQLSeymDojlU6SMryUjrDdH3-pn-u9lO4dJC0jd7yoagGhCOHsVQ/viewform";
-	public static boolean PrintStartUpMessage = false;
 	public static String SPREADSHEET_RANGE_SPLITTER = ":";
 	public static String SPREADSHEET_START = "A";
 	public static String SPREADSHEET_END = SPREADSHEET_RANGE_SPLITTER + "H";
@@ -68,7 +69,7 @@ public class BotDefs {
 	 * @return the path as String.
 	 */
 	public static String FILE_LOCATION() {
-		
+
 		String path = null;
 		try {
 			path = BotDefs.class.getProtectionDomain().getCodeSource().getLocation().toURI().getPath();
@@ -80,6 +81,8 @@ public class BotDefs {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
+		// CHANGE THIS IN FINAL RELEASE!
 		return "./";
 	}
 }
